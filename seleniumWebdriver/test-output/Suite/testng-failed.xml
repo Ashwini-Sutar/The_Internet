@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.selenium.demo.extent.ExtentTestNGITestListener"/>
+  </listeners>
+  <test name="Testing Of The-Internet(failed)">
+    <classes>
+      <class name="com.selenium.demo.tests.DisAppearingElePageTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="testGalleryButton"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.selenium.demo.tests.DisAppearingElePageTest -->
+      <class name="com.selenium.demo.tests.TestABElements">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="testHeader"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.selenium.demo.tests.TestABElements -->
+    </classes>
+  </test> <!-- Testing Of The-Internet(failed) -->
+</suite> <!-- Failed suite [Suite] -->
